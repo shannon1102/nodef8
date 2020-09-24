@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 console.log();
 
 //HTTP loger
-app.use(morgan('combined'));
+        app.use(morgan('combined'));
 
 app.engine(
     'hbs',
